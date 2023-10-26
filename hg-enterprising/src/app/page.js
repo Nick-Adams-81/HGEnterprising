@@ -1,15 +1,16 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      
-
       <div className={styles.center}>
-        <h1>HG Enterprising.</h1>
+        <h1>HG Enterprising</h1>
       </div>
-
+      <h2>
+        One stop shop for all your Consulting, Event planning, and Concert
+        needs.
+      </h2>
       <div className={styles.grid}>
         <div
           href=""
@@ -57,11 +58,9 @@ export default function Home() {
           <h2>
             CEO <span></span>
           </h2>
-          <p>
-            Greg Gabriel
-          </p>
+          <p>Greg Gabriel</p>
         </div>
       </div>
     </main>
-  )
+  );
 }
