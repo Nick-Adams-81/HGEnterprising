@@ -8,7 +8,7 @@ export default function Home() {
         <h1>HG Enterprising</h1>
       </div>
       <h2>
-        One stop shop for all your Consulting, Event planning, and Concert
+        Your one stop shop for all your Consulting, Event planning, and Concert
         needs.
       </h2>
       <div className={styles.grid}>
@@ -34,7 +34,7 @@ export default function Home() {
             Address <span></span>
           </h2>
           <p>4650 Natomas Blvd, suite 110</p>
-          <p>Sacramento, CA, </p>
+          <p>Sacramento, CA, 95835</p>
         </div>
 
         <div
